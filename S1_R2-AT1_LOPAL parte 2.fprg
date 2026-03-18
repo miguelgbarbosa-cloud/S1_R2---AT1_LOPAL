@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="S1_R2-AT1_LOPAL TAREFA"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 02:52:41 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NDsyMDI2LTAzLTE4OyIwMTo0NTowMiAiOzI0MjY="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NDsyMDI2LTAzLTE4OyIwMjo1Mjo0MSAiOzU7MjU0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="primeiro" type="Real" array="False" size=""/>
+            <output expression="&quot;digite o primeiro valor. &quot;" newline="True"/>
+            <input variable="primeiro"/>
+            <declare name="segundo" type="Real" array="False" size=""/>
+            <output expression="&quot;digite o segundo numero. &quot;" newline="True"/>
+            <input variable="segundo"/>
+            <declare name="soma" type="Real" array="False" size=""/>
+            <assign variable="soma" expression="primeiro + segundo"/>
+            <output expression="&quot;resposta da soma &quot; &amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

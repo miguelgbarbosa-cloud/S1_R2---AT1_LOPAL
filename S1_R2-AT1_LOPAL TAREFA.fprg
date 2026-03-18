@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="S1_R2-AT1_LOPAL TAREFA"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 02:01:08 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NDsyMDI2LTAzLTE4OyIwMTo0NTowMiAiOzI0MjY="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NDsyMDI2LTAzLTE4OyIwMjowMTowOCAiOzE7MjUzMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="conta" type="Integer" array="False" size=""/>
+            <assign variable="conta" expression="0"/>
+            <output expression="&quot;digitar um valor: &quot;" newline="True"/>
+            <input variable="conta"/>
+            <output expression="&quot;o valor digitado foi &quot; &amp; conta" newline="True"/>
+            <if expression="conta&gt; 10">
+                <then>
+                    <output expression="&quot;Ainda precisa de conta mais&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Contagem finalizada&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

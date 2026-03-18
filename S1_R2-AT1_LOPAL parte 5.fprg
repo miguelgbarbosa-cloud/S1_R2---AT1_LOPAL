@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="S1_R2-AT1_LOPAL TAREFA"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 03:07:37 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NDsyMDI2LTAzLTE4OyIwMTo0NTowMiAiOzI0MjY="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NDsyMDI2LTAzLTE4OyIwMzowNzozNyAiOzk7MjU1MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;me informe a nota de suas provas&quot;" newline="True"/>
+            <output expression="&quot;nota da primeira prova&quot;" newline="True"/>
+            <declare name="primeira" type="Real" array="False" size=""/>
+            <input variable="primeira"/>
+            <output expression="&quot;me informe a nota da segunda prova&quot;" newline="True"/>
+            <declare name="segunda" type="Real" array="False" size=""/>
+            <input variable="segunda"/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <assign variable="media" expression="(primeira+segunda)/2"/>
+            <output expression="&quot;sua media &#233;: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

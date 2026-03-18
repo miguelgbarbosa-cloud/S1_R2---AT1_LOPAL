@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="S1_R2-AT1_LOPAL TAREFA"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 02:59:28 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NDsyMDI2LTAzLTE4OyIwMTo0NTowMiAiOzI0MjY="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NDsyMDI2LTAzLTE4OyIwMjo1OToyOCAiOzQ7MjU1MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;digitar um valor: &quot;" newline="True"/>
+            <declare name="n&#250;mero" type="Real" array="False" size=""/>
+            <input variable="n&#250;mero"/>
+            <if expression="n&#250;mero =0">
+                <then>
+                    <output expression="&quot;Seu n&#250;mero &#233; zero. &quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n&#250;mero &gt;0">
+                        <then>
+                            <output expression="&quot;Seu n&#250;mero &#233; positivo. &quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Seu n&#250;mero &#233; negativo. &quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
